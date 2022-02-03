@@ -80,7 +80,7 @@ img {
 
   body{
     margin: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .container {
@@ -124,7 +124,7 @@ img {
   #steps .row>.central,
   #steps .row>.right{
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
   }
 
   #why .row{
