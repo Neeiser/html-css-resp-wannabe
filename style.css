@@ -77,6 +77,11 @@ img {
 /* SEZIONE ESERCIZIO: MEDIA QUERY */
 
 @media screen and (max-width: 420px) {
+
+  body{
+    margin: 0;
+  }
+
   .container {
     display: flex;
   }
@@ -85,10 +90,17 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f2f2cd;
+    margin-top: 0;
   }
 
-  img {
+  #lezioni .row>.left, #lezioni .row>.right{
+    width: 100%;
+  }
+
+  img{
     width: 20vw;
     height: 20vw;
   }
+
 }
