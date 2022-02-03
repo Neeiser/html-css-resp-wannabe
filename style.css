@@ -74,6 +74,76 @@ img {
 
 
 
+/* !!BONUS!! SEZIONE ESERCIZIO: MEDIA QUERY  !!BONUS!!*/
+/* NB: L'esercizio richiesto si trova sotto questa sezione! */
+
+@media screen and (max-width: 768px) {
+
+  body{
+    margin: 0;
+    font-size: 3vw;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .row{
+    padding: 0 5px;
+    margin-top: 0;
+  }
+
+  img{
+    height: 20vw;
+  }
+
+  h3{
+    margin: 0;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right{
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+
+  #lezioni .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #steps .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2cd;
+    margin-top: 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
+  }
+
+  #why .row img{
+    height: 15vw;
+    padding: 20px;
+  }
+}
+
+
+
 /* SEZIONE ESERCIZIO: MEDIA QUERY */
 
 @media screen and (max-width: 420px) {
@@ -118,6 +188,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
     margin-top: 0;
   }
 
