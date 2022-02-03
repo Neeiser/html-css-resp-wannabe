@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* SEZIONE ESERCIZIO: MEDIA QUERY */
+
+@media screen and (max-width: 420px) {
+  .container {
+    display: flex;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 20vw;
+    height: 20vw;
+  }
+}
